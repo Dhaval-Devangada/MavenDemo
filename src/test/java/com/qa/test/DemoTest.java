@@ -1,10 +1,11 @@
 package com.qa.test;
 
 import org.testng.Assert;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 public class DemoTest {
-
+	@Parameters("Browser")
 	@Test
 	public void sum() {
 		System.out.println("SUM");
